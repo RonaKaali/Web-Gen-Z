@@ -39,11 +39,28 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSending(true);
-    // Simulate send
-    await new Promise((r) => setTimeout(r, 1500));
-    setSending(false);
-    setSent(true);
-    setTimeout(() => setSent(false), 3000);
+
+    try {
+      const formData = new FormData();
+      formData.append("name", formState.name);
+      formData.append("email", formState.email);
+      formData.append("message", formState.message);
+      formData.append("_subject", `Pesan Baru dari ${formState.name} — Website Gen Z`);
+      formData.append("_template", "table");
+
+      await fetch("https://formsubmit.co/ajax/ronafatahilah@gmail.com", {
+        method: "POST",
+        body: formData,
+      });
+
+      setSending(false);
+      setSent(true);
+      setFormState({ name: "", email: "", message: "" });
+    } catch {
+      setSending(false);
+      alert("Gagal mengirim. Coba lewat WhatsApp langsung ya!");
+    }
+    setTimeout(() => setSent(false), 4000);
   };
 
   return (
