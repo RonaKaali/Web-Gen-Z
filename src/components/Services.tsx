@@ -8,7 +8,7 @@ const services = [
     icon: Monitor,
     title: "Pembuatan Website",
     desc: "Landing page, company profile, toko online, blog — semua bisa! Design modern, mobile friendly, dan siap pakai.",
-    price: "Mulai 300K",
+    price: "Mulai 350K",
     features: ["Responsive Design", "SEO Optimized", "Custom Domain", "Free Hosting 1 Tahun"],
   },
   {
@@ -67,10 +67,9 @@ export default function Services() {
               transition={{ duration: 0.5, delay: i * 0.15 }}
               whileHover={{ y: -10, transition: { duration: 0.3 } }}
               className={`relative group rounded-2xl p-6 md:p-8 transition-all duration-500
-                ${
-                  service.popular
-                    ? "bg-gradient-to-b from-accent/10 to-accent/5 border-2 border-accent/30 shadow-xl shadow-accent/10"
-                    : "bg-white/5 border border-white/10 hover:border-white/20"
+                ${service.popular
+                  ? "bg-gradient-to-b from-accent/10 to-accent/5 border-2 border-accent/30 shadow-xl shadow-accent/10"
+                  : "bg-white/5 border border-white/10 hover:border-white/20"
                 }`}
             >
               {service.popular && (
