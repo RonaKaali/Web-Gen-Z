@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import SplashScreen from "@/components/SplashScreen";
+import MascotDecorations from "@/components/MascotDecorations";
 
 export const metadata: Metadata = {
   title: "WEBSITE GEN Z — Jasa Pembuatan Website & Aplikasi",
@@ -56,6 +57,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         <SplashScreen />
+        <MascotDecorations />
         {children}
       </body>
     </html>
