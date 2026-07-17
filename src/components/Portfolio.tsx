@@ -13,11 +13,11 @@ const projects = [
     url: "https://globalcctv.web.id",
   },
   {
-    title: "OS TIKET TA",
+    title: "SIGAP SIBER",
     desc: "Sistem pengaduan insiden siber dengan fitur tiket terintegrasi untuk pelaporan dan penanganan keamanan digital.",
     tags: ["Laravel", "Blade", "Tailwind", "MySQL"],
     image: "/SIGAP SIBER OS TIKET.png",
-    url: "https://pengaduaninsidensiber.vercel.app",
+    url: "https://sigapsiber.vercel.app",
   },
   {
     title: "FLEET TRACKER",

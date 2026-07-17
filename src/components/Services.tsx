@@ -115,6 +115,18 @@ export default function Services() {
           ))}
         </div>
       </div>
+
+      {/* Services Mascots */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden hidden lg:block">
+        {/* Maskot 1 - Left side big */}
+        <div className="absolute left-0 top-1/2 -translate-y-1/2 w-72 xl:w-96 2xl:w-[32rem]">
+          <img src="/MASKOT 1.png" alt="" className="w-full h-auto object-contain opacity-40" draggable={false} />
+        </div>
+        {/* Maskot 4 - Right side big */}
+        <div className="absolute right-0 top-1/2 -translate-y-1/2 w-72 xl:w-96 2xl:w-[32rem]">
+          <img src="/MASKOT 4.png" alt="" className="w-full h-auto object-contain opacity-40" draggable={false} />
+        </div>
+      </div>
     </section>
   );
 }

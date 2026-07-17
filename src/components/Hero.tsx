@@ -106,6 +106,18 @@ export default function Hero() {
         </motion.div>
       </motion.div>
 
+      {/* Hero Mascots */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden hidden lg:block">
+        {/* Maskot 3 - Left side big */}
+        <div className="absolute left-0 top-1/2 -translate-y-1/2 w-72 xl:w-96 2xl:w-[32rem]">
+          <img src="/MASKOT 3.png" alt="" className="w-full h-auto object-contain opacity-80" draggable={false} />
+        </div>
+        {/* Maskot 2 - Right side big */}
+        <div className="absolute right-0 top-1/2 -translate-y-1/2 w-72 xl:w-96 2xl:w-[32rem]">
+          <img src="/MASKOT 2.png" alt="" className="w-full h-auto object-contain opacity-80" draggable={false} />
+        </div>
+      </div>
+
       {/* Scroll Indicator */}
       <motion.a
         href="#about"

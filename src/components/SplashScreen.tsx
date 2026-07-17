@@ -111,7 +111,27 @@ export default function SplashScreen() {
                 />
               ))}
             </motion.div>
-          </motion.div>
+        </motion.div>
+
+          {/* Splash Mascot 2 - Right side */}
+          <div className="absolute right-0 top-0 bottom-0 w-1/3 pointer-events-none overflow-hidden flex items-center justify-end">
+            <img
+              src="/MASKOT 2.png"
+              alt=""
+              className="h-full w-auto object-contain opacity-70"
+              draggable={false}
+            />
+          </div>
+
+          {/* Splash Mascot 4 - Left side */}
+          <div className="absolute left-0 top-0 bottom-0 w-1/3 pointer-events-none overflow-hidden flex items-center justify-start">
+            <img
+              src="/MASKOT 4.png"
+              alt=""
+              className="h-full w-auto object-contain opacity-70"
+              draggable={false}
+            />
+          </div>
 
           {/* Corner decorations */}
           <div className="absolute top-8 left-8 w-16 h-16 border-l-2 border-t-2 border-white/10 rounded-tl-2xl" />
