@@ -5,7 +5,7 @@ import SplashScreen from "@/components/SplashScreen";
 export const metadata: Metadata = {
   title: "WEBSITE GEN Z — Jasa Pembuatan Website & Aplikasi",
   description:
-    "Jasa pembuatan website, aplikasi, dan joki tugas programming untuk UMKM, cafe, dan usaha kecil. Built By Gen Z, For Everyone. Mulai dari 300K!",
+    "Jasa pembuatan website, aplikasi, dan joki tugas programming untuk UMKM, cafe, dan usaha kecil. Built By Gen Z, For Everyone. Mulai dari 350K!",
   keywords: [
     "jasa pembuatan website",
     "website murah",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "WEBSITE GEN Z — Jasa Pembuatan Website & Aplikasi",
     description:
-      "Biar kamu fokus bisnis, urusan website biar kami. Mulai dari 300K!",
+      "Biar kamu fokus bisnis, urusan website biar kami. Mulai dari 350K!",
     type: "website",
     locale: "id_ID",
     siteName: "WEBSITE GEN Z",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "WEBSITE GEN Z — Jasa Pembuatan Website & Aplikasi",
     description:
-      "Biar kamu fokus bisnis, urusan website biar kami. Mulai dari 300K!",
+      "Biar kamu fokus bisnis, urusan website biar kami. Mulai dari 350K!",
   },
   robots: "index, follow",
   icons: {
