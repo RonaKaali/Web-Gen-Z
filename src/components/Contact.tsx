@@ -119,6 +119,32 @@ export default function Contact() {
           ))}
         </div>
 
+        {/* Google Maps */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="max-w-4xl mx-auto mb-12 overflow-hidden rounded-2xl border border-white/10"
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1023098.6603825636!2d114.305709802265!3d-3.3196434823057597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de419668b5bf2ff%3A0x36d50c07de413b11!2sBanjarmasin%2C%20Kota%20Banjarmasin%2C%20Kalimantan%20Selatan!5e0!3m2!1sid!2sid!4v1!4m1!1s0x2de419668b5bf2ff%3A0x36d50c07de413b11"
+            width="100%"
+            height="350"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Lokasi WEBSITE GENZ - Banjarmasin"
+            className="rounded-2xl"
+          />
+          <div className="bg-white/10 backdrop-blur-sm px-6 py-3 text-center">
+            <p className="text-white/60 text-sm">
+              📍 Banjarmasin, Kalimantan Selatan — Melayani Seluruh Indonesia
+            </p>
+          </div>
+        </motion.div>
+
         {/* Form + CTA */}
         <div className="max-w-3xl mx-auto">
           <motion.div
