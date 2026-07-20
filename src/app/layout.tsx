@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s | WEBSITE GEN Z",
   },
   description:
-    "Jasa pembuatan website, aplikasi, dan joki tugas programming untuk UMKM, cafe, dan usaha kecil. Mulai dari 350K! Biar kamu fokus bisnis, urusan website biar kami.",
+    "Jasa pembuatan website, aplikasi, dan joki tugas programming untuk UMKM, cafe, dan usaha kecil. Mulai dari 200K! Biar kamu fokus bisnis, urusan website biar kami.",
   keywords: [
     "jasa pembuatan website",
     "website murah",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "WEBSITE GEN Z — Jasa Pembuatan Website & Aplikasi",
     description:
-      "Biar kamu fokus bisnis, urusan website biar kami. Mulai dari 350K! Jasa pembuatan website, aplikasi, dan joki tugas programming.",
+      "Biar kamu fokus bisnis, urusan website biar kami. Mulai dari 200K! Jasa pembuatan website, aplikasi, dan joki tugas programming.",
     url: "https://www.webgenz.my.id",
     siteName: "WEBSITE GEN Z",
     images: [
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "WEBSITE GEN Z — Jasa Pembuatan Website & Aplikasi",
     description:
-      "Biar kamu fokus bisnis, urusan website biar kami. Mulai dari 350K!",
+      "Biar kamu fokus bisnis, urusan website biar kami. Mulai dari 200K!",
     images: ["/logo.png"],
   },
   robots: {
