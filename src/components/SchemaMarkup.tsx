@@ -15,7 +15,7 @@ export default function SchemaMarkup() {
       telephone: "+6288234448888",
       email: "ronafatahilah@gmail.com",
       description:
-        "Jasa pembuatan website, aplikasi, dan joki tugas programming untuk UMKM, cafe, dan usaha kecil. Mulai dari 200K!",
+        "Jasa pembuatan website, aplikasi, dan joki tugas programming untuk UMKM, cafe, dan usaha kecil. Mulai dari 500K!",
       address: {
         "@type": "PostalAddress",
         addressCountry: "ID",

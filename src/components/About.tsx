@@ -12,7 +12,7 @@ const features = [
   {
     icon: BadgeCheck,
     title: "Harga Bersahabat",
-    desc: "Mulai dari 200K aja! Cocok buat UMKM dan usaha kecil yang baru mulai go digital.",
+    desc: "Mulai dari 500K aja! Cocok buat UMKM dan usaha kecil yang baru mulai go digital.",
   },
   {
     icon: Zap,
